@@ -7,15 +7,6 @@
 * Implement a stack interface.
 
 
-## Time Line 
-You have about three weeks to complete the assignment. Start right away! **The lab TA will expect that you already have most of that week's work completed. Come with prepared questions and
-be prepared to answer the TA's questions about your code.**
-
-* Week 1: DSList class with CATCH2 tests and memory leak debugging using `valgrind/asan`. **Deliverables:** `DSList` implementation + test
-* Week 2: DSStack classes + basic bracket checking function that can check one file (just OK/not OK), `CATCH2` tests, and valgrind. **Deliverables:** `DSStack` implementation + test, checker function.
-* Week 3: Detailed error messages, cleaning up code. Runtime comparison and improving the documentation comments. **Deliverables:** completed project.
-
-
 ## Introduction
 Writing code is fun... Well, most of the time. Sometimes I mess up
 brackets (i.e., `"[]", "()", "{}"`). 
@@ -93,25 +84,4 @@ comparison operators?
   
    Paste the output of valgrind or the AddressSanitizer to show that your code is fine. 
    > I have tried everything to set up valgrind on my computer. I followed every single steps in the instruction of Matthews but i still get this thing to run
-  
-
-
-## Grading Rubric
-
-|                             | Points Possible | Points Awarded |
-| :------------------         | --------------: | -------------: |
-| DSList Class                | 20              |                |
-| CATCH2 tests DSList         |  5              |                |
-| DSStack Class (List)        | 10              |                |
-| DSStack Class (Vector)      |  5              |                |
-| Bracket checker (OK/not OK) | 15              |                |
-| CATCH2 tests checker        |  5              |                |
-| Runtime comparison          |  5              |                |
-| Detailed errors for checker | 10              |                |
-| Answer to questions         |  5              |                |
-| Proper Memory Management (valgrind) | 10      |                |
-| Formatting, Comments, etc.  |  5              |                |
-| Proper use of GitHub        |  5              |                |
-| Early submission bonus (48 hrs)   |  + 5      |                |
-| Additional Work             | up to +10       |                |
 
